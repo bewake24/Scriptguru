@@ -1,0 +1,65 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background: #fff;
+    gap: 64px;
+}
+
+.search-bar{
+    flex-grow: 2;
+    background: #f0f5ff;
+    border-radius: 16px;
+}
+
+.search-bar button{
+    background: #f0f5ff;
+    border: transparent;
+    padding: 8px 32px 8px 16px;
+    border-radius: 16px;
+}
+
+.customer-profile .nav-tabs{
+    border-bottom: 0;
+}
+
+.nav-tabs .nav-link.active{
+    border-color: transparent;
+}
+
+.toogle-button, .mobile-nav{
+    display: none;
+}
+
+.mobile-nav{
+    width: 256px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 998px) {
+    .search-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar{
+        display: none;
+    }
+    
+    .customer-profile .nav-tabs{
+        display: none;
+    }
+
+    .toogle-button, .mobile-nav{
+        display: block;
+    }
+}
+
+
+/* LIBRARY for this project */
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+}

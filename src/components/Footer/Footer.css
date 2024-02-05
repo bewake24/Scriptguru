@@ -1,0 +1,28 @@
+footer{
+    background: #212121;
+    color: #fff;
+}
+
+footer h5{
+    color: #6e6e6e;
+    font-size: 16px;
+}
+
+footer ul{
+    color: #fff;
+    font-size: 14px;
+}
+
+footer li a{
+    color: #fff;
+}
+
+footer .row .col-lg-2{
+    padding: 15px;
+}
+
+footer hr{
+    background: #fff;
+    color: #fff;
+    border: 1px 0 0 0;
+}
