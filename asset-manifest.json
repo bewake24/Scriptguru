@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/scriptguru/static/css/main.f1729927.css",
+    "main.js": "/scriptguru/static/js/main.f19bfd2c.js",
+    "static/js/592.599f76a2.chunk.js": "/scriptguru/static/js/592.599f76a2.chunk.js",
+    "static/media/logo.svg": "/scriptguru/static/media/logo.11f9e2f7d0d3208852b0033b9714baa7.svg",
+    "index.html": "/scriptguru/index.html",
+    "main.f1729927.css.map": "/scriptguru/static/css/main.f1729927.css.map",
+    "main.f19bfd2c.js.map": "/scriptguru/static/js/main.f19bfd2c.js.map",
+    "592.599f76a2.chunk.js.map": "/scriptguru/static/js/592.599f76a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1729927.css",
+    "static/js/main.f19bfd2c.js"
+  ]
+}
