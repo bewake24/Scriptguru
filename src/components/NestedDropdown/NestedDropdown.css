@@ -21,7 +21,7 @@ li {
 
 
 .nested-dropdown{
-    margin: 12px;
+    margin: 12px auto 120px auto;
     padding: 16px auto;
     display: flex;
     flex-direction: row;

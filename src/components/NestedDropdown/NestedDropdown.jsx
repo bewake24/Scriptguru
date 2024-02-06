@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./NestedDropdown.css"
+import "./NestedDropdown.css";
 import FirstDropdown from "./FirstDropdown";
+import data from "./data.js";
 
 const NestedDropdown = () => {
   const [showFirstDropdown, setShowFirstDropdown] = useState(false);
@@ -24,14 +25,9 @@ const NestedDropdown = () => {
 
   return (
     <div className="nested-dropdown">
-      <FirstDropdown />
-      <FirstDropdown />
-      <FirstDropdown />
-      <FirstDropdown />
-      <FirstDropdown />
-      <FirstDropdown />
-      <FirstDropdown />
-      <FirstDropdown />
+      {data.map((category) => (
+        <FirstDropdown key={category.category} subData={category} />
+      ))}
     </div>
   );
 };

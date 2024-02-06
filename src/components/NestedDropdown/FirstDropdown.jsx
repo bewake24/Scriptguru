@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import "./NestedDropdown.css"
+import "./NestedDropdown.css";
 
-const FirstDropdown = () => {
+const FirstDropdown = ({ subData }) => {
+  console.log(subData);
   const [showFirstDropdown, setShowFirstDropdown] = useState(false);
   const [showSecondDropdown, setShowSecondDropdown] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -33,9 +34,9 @@ const FirstDropdown = () => {
             src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"
             alt="fdf"
           />
-          <p>Grocery</p>
+          <p>{subData.category}</p>
         </button>
-        
+
         {showFirstDropdown && (
           <div
             style={{
@@ -50,7 +51,7 @@ const FirstDropdown = () => {
             <ul>
               <li onMouseEnter={() => handleItemHover("Produce")}>Produce</li>
               <li onMouseEnter={() => handleItemHover("Dairy")}>Dairy</li>
-              <li onMouseEnter={() => handleItemHover("Bakery")}>Bakery</li>
+              <li onMouseEnter={() => handleItemHover("Produce")}>Bakery</li>  
             </ul>
           </div>
         )}
@@ -70,7 +71,7 @@ const FirstDropdown = () => {
           <li>Apples {selectedItem}</li>
           <li>Tomatoes {selectedItem}</li>
           <li>Spinach {selectedItem}</li>
-          {/* Add content for the second dropdown */}
+          <li>Paneer {selectedItem}</li>
         </div>
       )}
     </div>

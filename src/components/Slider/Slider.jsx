@@ -10,10 +10,10 @@ function Slider() {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" alt="First slide" />
+      <img class="d-block w-100" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/739ed527dbf977fe.jpg?q=20" alt="First slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/9d7749cb1299d7b1.jpg?q=20" alt="Second slide" />
+      <img class="d-block w-100" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/aa1b2bdcf519b468.jpg?q=20" alt="Second slide" />
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8296c622899df7e0.jpg?q=20" alt="Third slide" />
